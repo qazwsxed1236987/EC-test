@@ -1,0 +1,22 @@
+.picturelist .title{
+text-align: center;
+padding-block: 20px;
+}
+.picturelist .photolist{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, calc(25% - 15px));
+    padding-block: 20px;
+    grid-gap: 20px;
+}
+@media screen and (max-width:800px) {
+    .picturelist .title {
+        padding-block: 0 20px;
+   }
+    .picturelist .photolist {
+         grid-template-columns: repeat(1,100%);
+        padding-block: 15px;
+        grid-gap: 40px;
+    }
+}

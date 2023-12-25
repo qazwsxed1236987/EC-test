@@ -1,0 +1,77 @@
+.head{
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 1px #fff solid;
+    padding: 15px;
+    background: #111111;
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+.add{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 1px #fff solid;
+    padding: 10px 16px 10px 20px;
+    color: #fff;
+    gap: 10px;
+    font-size: 18px;
+    background: #111111;
+}
+.bell{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 1px #fff solid;
+    padding: 15px;
+    background: #111111;
+}
+.bell::after {
+    content: '';
+    position: absolute;
+    background-color: red;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 5px;
+    height: 5px;
+    transform: translate(13px,-8px);
+}
+@media screen and (max-width:800px) {
+    .head {
+        bottom: 0;
+        }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 30px;
+        background: #111111;
+        }
+    .album{
+        display: flex;
+        align-items: center;
+        background: transparent;
+        border: 0;
+        padding: 15px;
+        background: #111111;
+    }
+    .search{
+        border:0;
+    }
+    .bell{
+        border:0;
+    }
+}
