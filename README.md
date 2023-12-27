@@ -14,7 +14,7 @@ pnpm dev
 ```
 
 ## 程式說明
-
+利用next框架製作
 串接 https://jsonplaceholder.typicode.com/ api，並使用其中會員及相簿、相片資料
 製作一個簡易相簿功能
 登入帳號驗證使用數字 1-10
