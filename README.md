@@ -13,7 +13,13 @@ yarn dev
 pnpm dev
 ```
 
-## Deploy on Vercel
+## 程式說明
+
+串接 https://jsonplaceholder.typicode.com/ api，並使用其中會員及相簿、相片資料
+製作一個簡易相簿功能
+登入帳號驗證使用數字 1-10
+
+## 部屬於 Vercel
 
 本專案為 react next 並使用 Vercel 部屬，其端口預設為 http:80 https:443
 部屬流程為將 github 連結至 Vercel 並使用自動化部屬即可
